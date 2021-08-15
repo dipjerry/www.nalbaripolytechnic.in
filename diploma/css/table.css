@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.main-body {
+    background-color: #e9ddb3;
+    margin: 0px 10px 0px 10px;
+    padding: 1px 10px 5px 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.main-body-wrap {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%
+}
+
+.sub-desc {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.sub-div {
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 70%;
+}
+
+.sub-div-size2 {
+    width: 100%
+}
+
+.sub-div2 {
+    background-color: white;
+}
+
+.tab-m {
+    margin-left: 20px;
+}
+
+.main-body a img {
+    width: 500px
+}
+
+.body-1 {
+    background-color: #c150ff;
+}
+
+.title-main h3 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    padding: 5px;
+}
+
+.sub-div h3 {
+    font-weight: bold;
+}
+
+.ws {
+    width: 40%;
+    padding: 1px;
+    position: relative
+}
+
+.time-title {
+    text-decoration: none;
+}
+
+.syllab {
+    overflow-x: auto;
+}
+
+.syllab table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+    word-spacing: 1px;
+}
+
+.syllab table tr td,
+.syllab table tr th {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+.syllab table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table tr td .syllabus img {
+    width: 30px;
+}
+
+.rules-image img {
+    width: 100%;
+}
+
+.img2 {
+    float: left;
+    width: 25%;
+    margin: 0px 10px 10px 0px;
+    border-style: ridge;
+    border-color: chartreuse
+}
+
+
+/* table content faculties */
+
+.hides:target {
+    max-height: 1em;
+    background-color: aquamarine
+}
+
+.cTab table,
+.sTab table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+}
+
+.hides tr td {
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+}
+
+.cTab table thead tr th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.cTab table tbody tr td,
+.cTab table thead tr th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+.labels tr td {
+    background-color: #2cc16a;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hides tr td {
+    padding: 0px;
+    margin: 0px
+}
+
+.label tr td label {
+    display: block;
+}
+
+.labels-position {
+    background-color: #3498db;
+    color: white;
+}
+
+.hides {
+    display: none
+}
+
+[data-toggle="toggle"] {
+    display: none;
+}
+
+#table-image {
+    width: 100px;
+}
+
+
+/* table content notes */
+
+.sTab table thead tr th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.sTab table tbody td,
+.sTab table thead th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+}
+
+.labels tr td {
+    background-color: #2cc16a;
+    font-weight: bold;
+    color: #fff;
+}
+
+.label tr td label {
+    display: block;
+}
+
+.labels-position {
+    background-color: #3498db;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .syllab table {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .syllab table td,
+    .syllab table th {
+        padding: 0px;
+    }
+    .img2 {
+        width: 100%
+    }
+    .ws {
+        width: 20%;
+    }
+    /* table content */
+    .cTab table {
+        width: 97%;
+        margin: 0px;
+        align-items: center;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .cTab table tbody tr td,
+    .cTab table thead tr th {
+        text-align: center;
+        font-size: 20px
+    }
+    #table-image {
+        width: 140px
+    }
+    .cTab table table,
+    .cTab table thead,
+    tbody,
+    .cTab table thead tr th,
+    .cTab table tbody tr td,
+    .cTab table thead tr,
+    .cTab table tbody tr {
+        display: block;
+    }
+    .cTab table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .cTab table thead tr th {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+    .cTab table thead th:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    .cTab table thead th:nth-of-type(1):before {
+        content: "PHOTO";
+    }
+    .cTab table thead th:nth-of-type(2):before {
+        content: "NAME OF FACULTY";
+    }
+    .cTab table thead th:nth-of-type(3):before {
+        content: "DESIGNATION";
+    }
+    .cTab table thead th:nth-of-type(4):before {
+        content: "QUALIFICATION";
+    }
+    .cTab table thead th:nth-of-type(5):before {
+        content: "CONTACT";
+    }
+    /* table content notes */
+    .sTab table {
+        width: 97%;
+        margin: 0px;
+        align-items: center;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .sTab table tbody td,
+    .sTab table thead th {
+        text-align: center;
+        font-size: 20px
+    }
+    #table-image {
+        width: 140px
+    }
+    .sTab table,
+    .sTab table thead,
+    .sTab table tbody,
+    .sTab table thead tr th,
+    .sTab table tbody tr td,
+    .sTab table thead tr,
+    .sTab table tbody tr {
+        display: block;
+    }
+    .sTab table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .sTab table thead th {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+    .sTab table thead th:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    .sTab table thead th:nth-of-type(1):before {
+        content: "PHOTO";
+    }
+    .sTab table thead th:nth-of-type(2):before {
+        content: "NAME OF FACULTY";
+    }
+    .sTab table thead th:nth-of-type(3):before {
+        content: "DESIGNATION";
+    }
+    .sTab table thead th:nth-of-type(4):before {
+        content: "QUALIFICATIO";
+    }
+    .sTab table thead th:nth-of-type(5):before {
+        content: "CONTACT";
+    }
+}
+
+.body-1 {
+    background-color: #c150ff;
+}
+
+.collapsibleM {
+    cursor: pointer;
+}
+
+.contentM {
+    padding: 10px 18px;
+    display: none;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.containerBox {
+    width: 100%;
+}
+
+#menu .collapsibleM:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 1vw;
+    color: black;
+    float: right;
+    margin-left: 5px;
+    clear: both;
+    margin-bottom: 0px;
+}
+
+#menu .active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.Cbox {
+    max-width: 100%;
+    padding: 10px 10px 20px 10px;
+    margin: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.Cbox img {
+    width: 24%
+}
+
+.titleB {
+    position: relative;
+    top: 27px;
+    font-size: 40px
+}
+
+.time {
+    position: relative;
+}
+
+.containerImg {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.time-d {
+    padding: 3px;
+    margin: 3px 3px 0px 3px;
+    width: 120px;
+    font-size: 30px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+    text-align: center;
+}
+
+h1 {
+    width: 120px;
+    transform: translatey(-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    padding: 2px;
+    font-size: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .2);
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width:800px) {
+    .Cbox img {
+        width: 100%;
+    }
+    .titleB {
+        font-size: 30px
+    }
+}

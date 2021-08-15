@@ -1,0 +1,140 @@
+div.one-third {
+    width: 47.5%;
+}
+
+div.one-third-second {
+    margin: 0;
+}
+
+div.one-third-third {
+    margin: 0;
+}
+
+div.one-third-last {
+    float: right;
+    width: 45%;
+    padding: 10px 0 0 0;
+}
+
+div.one-third-third {
+    float: left;
+    clear: both;
+    width: 45%;
+    padding: 10px 0 0 0;
+}
+
+@media screen and (max-width: 900px) {
+    .micro2 {
+        position: relative;
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    .intro-pic {
+        width: 40%;
+        border-radius: 50%;
+    }
+    .intro {
+        width: 100%;
+        margin: 5px;
+    }
+    .intro h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    #thmbslider {
+        clear: both;
+        width: 100%;
+    }
+    .intro-text {
+        font-size: 13px;
+    }
+    .section-inner {
+        padding: 0px
+    }
+    .micro2 {
+        width: 100%
+    }
+    .tab-t {
+        clear: both;
+        width: 100%;
+        margin: 5px
+    }
+    .sub-div-size2 h3,
+    .tab-m h3 {
+        font-size: 16px;
+    }
+    .sub-desc {
+        font-size: 13px;
+    }
+    .title-main h3 {
+        font-size: 20px;
+    }
+    .sub-div {
+        width: 100%;
+    }
+    .intro-pic,
+    .intro {
+        width: 95%;
+        align-items: center;
+    }
+    div.body-content {
+        padding: 1px;
+        margin: 0px;
+    }
+    div.mobile-collapse {
+        width: auto;
+        float: none;
+        margin-right: 0;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .one-third-third {
+        margin: 20px
+    }
+    div.section-inner {
+        padding: 5px 5px 5px 5px;
+    }
+    .title-main {
+        font-size: 30px;
+    }
+    .syllab table tr td {
+        font-size: 16px;
+    }
+    .marquee-Top {
+        margin-bottom: 5px;
+    }
+    .marquee-Top img {
+        width: 8%
+    }
+    .marquee-Top marquee {
+        width: 90%;
+        float: right
+    }
+    .marquee-Top marquee span {
+        font-size: 15px
+    }
+}
+
+.box {
+    width: 47%;
+}
+
+@media screen and (max-width:500px) {
+    .box {
+        width: 90%;
+    }
+}
+
+.logo .img1 {
+    left: 40%;
+    right: 40%;
+    align-content: center
+}

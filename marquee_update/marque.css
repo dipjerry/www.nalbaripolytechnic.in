@@ -1,0 +1,206 @@
+.marque-container {
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.marque-size-t {
+    width: 100%;
+    height: 350px;
+    padding: 5px
+}
+
+.marque-size-n {
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 400px;
+}
+
+.marque-size-tpo {
+    margin-top: 1%;
+    width: 25%;
+    height: 400px;
+    border-radius: 3%;
+}
+
+.marqueeDepthNotice {
+    position: relative;
+    box-sizing: border-box;
+    animation: marqueeN 30s linear infinite;
+}
+
+.marqueeDepthTpo {
+    position: relative;
+    box-sizing: border-box;
+    animation: marqueeTpo 15s linear infinite;
+}
+
+.marqueeDepthTender {
+    position: relative;
+    box-sizing: border-box;
+    animation: marqueeT 15s linear infinite;
+}
+
+.marqueeDepthNotice {
+    position: relative;
+    box-sizing: border-box;
+    animation: marqueeNotice 15s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+.marquee-Top img {
+    width: 40px
+}
+
+.marquee-Top marquee {
+    width: 95%;
+    float: right
+}
+
+.marquee-Top marquee span {
+    font-size: 20px
+}
+
+.marquee-Top marquee .space {
+    color: red;
+}
+
+
+/* Make it move! */
+
+@keyframes marqueeN {
+    0% {
+        top: 24em
+    }
+    100% {
+        top: -55em
+    }
+}
+
+@keyframes marqueeTpo {
+    0% {
+        top: 12em
+    }
+    100% {
+        top: -25em
+    }
+}
+
+@keyframes marqueeT {
+    0% {
+        top: 12em
+    }
+    100% {
+        top: -30em
+    }
+}
+
+@keyframes marqueeNotice {
+    0% {
+        top: 12em
+    }
+    100% {
+        top: -30em
+    }
+}
+
+
+/* Make it look pretty */
+
+.micro .marquee {
+    padding: 0 1em;
+    line-height: 1.5em;
+    font: 1em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+.intro-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.micro:before,
+.micro::before,
+.micro:after,
+.micro::after {
+    left: 0;
+    content: '';
+    position: relative;
+    pointer-events: none;
+    width: 25%;
+    height: 2em;
+    background-image: linear-gradient(top, #FFF, rgba(255, 255, 255, 0));
+}
+
+.micro:after,
+.micro::after {
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.micro:before,
+.micro::before {
+    top: 0;
+}
+
+
+/* marque tab */
+
+
+/* .micro-t:before,
+.micro-t::before,
+.micro-t:after,
+.micro-t::after {
+    left: 0;
+    content: '';
+    position: relative;
+    pointer-events: none;
+    width: 100%;
+    height: 2em;
+    background-image: linear-gradient(top, #FFF, rgba(255, 255, 255, 0));
+}
+.micro-t:after,
+.micro-t::after {
+    bottom: 0;
+    transform: rotate(180deg);
+}
+.micro-t:before,
+.micro-t::before {
+    top: 0;
+} */
+
+
+/* Style the links */
+
+.vanity {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: 1em 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+    padding: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .marque-container,
+    .vanity,
+    .links-container {
+        width: 100%;
+    }
+}
+
+.links .marque-link {
+    line-height: 100%;
+}
+
+.marque-link a:link {
+    color: white
+}
+
+.marque-link a:visited {
+    color: white
+}

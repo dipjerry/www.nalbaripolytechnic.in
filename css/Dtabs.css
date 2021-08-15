@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.dTab_main-body {
+    background-color: #dddddd;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.dTab table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
+
+.dTab td,
+.dTab th {
+    border: 2px solid blue;
+    text-align: left;
+    padding: 8px;
+}
+
+.dTab tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.intake-title {
+    font-size: 20px;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.tabcontent {
+    display: none;
+    padding: 100px 20px;
+    height: auto;
+}
+
+#Home {
+    background-color: red;
+}
+
+#News {
+    background-color: green;
+}
+
+#Contact {
+    background-color: blue;
+}
+
+#About {
+    background-color: orange;
+}
+
+#Fees {
+    background-color: pink;
+}
+
+@media screen and (max-width: 800px) {
+    .tablink {
+        font-size: 11px;
+        padding: 4px 4px
+    }
+    .main-body {
+        font-size: 14px;
+        padding: 5px
+    }
+    .tabcontent {
+        padding: 50px 10px
+    }
+    .intake-title {
+        font-size: 14px;
+    }
+}
